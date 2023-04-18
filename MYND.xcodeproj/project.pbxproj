@@ -11,6 +11,8 @@
 		E426527A29ECF2E300E4BECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426527929ECF2E300E4BECC /* ContentView.swift */; };
 		E426527C29ECF2E500E4BECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E426527B29ECF2E500E4BECC /* Assets.xcassets */; };
 		E426528029ECF2E500E4BECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E426527F29ECF2E500E4BECC /* Preview Assets.xcassets */; };
+		E426528729ECFB2A00E4BECC /* CopingSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426528629ECFB2A00E4BECC /* CopingSkills.swift */; };
+		E426528929ECFBE500E4BECC /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426528829ECFBE500E4BECC /* Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E426527B29ECF2E500E4BECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E426527D29ECF2E500E4BECC /* MYND.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MYND.entitlements; sourceTree = "<group>"; };
 		E426527F29ECF2E500E4BECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E426528629ECFB2A00E4BECC /* CopingSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopingSkills.swift; sourceTree = "<group>"; };
+		E426528829ECFBE500E4BECC /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		E426527629ECF2E300E4BECC /* MYND */ = {
 			isa = PBXGroup;
 			children = (
+				E426528829ECFBE500E4BECC /* Navigation.swift */,
 				E426527729ECF2E300E4BECC /* MYNDApp.swift */,
 				E426527929ECF2E300E4BECC /* ContentView.swift */,
 				E426527B29ECF2E500E4BECC /* Assets.xcassets */,
 				E426527D29ECF2E500E4BECC /* MYND.entitlements */,
 				E426527E29ECF2E500E4BECC /* Preview Content */,
+				E426528629ECFB2A00E4BECC /* CopingSkills.swift */,
 			);
 			path = MYND;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E426528729ECFB2A00E4BECC /* CopingSkills.swift in Sources */,
 				E426527A29ECF2E300E4BECC /* ContentView.swift in Sources */,
 				E426527829ECF2E300E4BECC /* MYNDApp.swift in Sources */,
+				E426528929ECFBE500E4BECC /* Navigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

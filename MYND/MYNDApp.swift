@@ -11,7 +11,7 @@ import SwiftUI
 struct MYNDApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Navigation()
         }
     }
 }
