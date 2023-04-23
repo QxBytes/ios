@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CopingSkills: View {
     @State var isShowing = false;
+    @State var data = strategies
     var body: some View {
         VStack {
             NavigationView {
@@ -16,44 +17,29 @@ struct CopingSkills: View {
                     Text("Coping Strategies")
                         .font(.largeTitle)
                         .fontWeight(.bold)
-                    NavigationLink(destination: Text("1")) {
-                        HStack {
-                            Text("Appreciate yourself")
-                                .foregroundColor(.black)
-                                .frame(maxWidth: .infinity, alignment:.leading)
-                            Text("B")
-                                
+                    ForEach (data, id: \.self.title) { strat in
+                        NavigationLink(destination: CopingSkillView(data: strat)) {
+                            HStack {
+                                Text(strat.title)
+                                    .foregroundColor(.black)
+                                    .frame(maxWidth: .infinity, alignment:.leading)
+                                Text("B")
+                                    
+                            }
+                            .padding(Theming.md)
+                            .background(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .fill(Theming.fg)
+                            )
                         }
-                        .padding(20)
-                        .background(
-                            RoundedRectangle(cornerRadius: 10)
-                                .fill(.gray)
-                        )
                     }
-                    NavigationLink(destination: Text("1")) {
-                        Button(action: { }) {
-                            Text("Appreciate yourself")
-                                .foregroundColor(.black)
-                                .frame(maxWidth: .infinity, alignment:.leading)
-                                .padding(10)
-                            Text("Bookmarked")
-                                
-                        }.buttonStyle(.bordered)
-                    }
-                    NavigationLink(destination: Text("1")) {
-                        Button(action: { }) {
-                            Text("Appreciate yourself")
-                                .foregroundColor(.black)
-                                .frame(maxWidth: .infinity, alignment:.leading)
-                                .padding(10)
-                            Text("Bookmarked")
-                                
-                        }.buttonStyle(.bordered)
-                    }
+                    
                     Spacer()
                 }
+                .padding(Theming.md)
+                .background(Theming.bg)
             }
-        }.padding(20)
+        }.background(Theming.bg)
     }
 }
 

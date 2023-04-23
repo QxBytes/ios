@@ -13,6 +13,10 @@
 		E426528029ECF2E500E4BECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E426527F29ECF2E500E4BECC /* Preview Assets.xcassets */; };
 		E426528729ECFB2A00E4BECC /* CopingSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426528629ECFB2A00E4BECC /* CopingSkills.swift */; };
 		E426528929ECFBE500E4BECC /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426528829ECFBE500E4BECC /* Navigation.swift */; };
+		E426528B29F4EFF000E4BECC /* CopingStrategies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426528A29F4EFF000E4BECC /* CopingStrategies.swift */; };
+		E426528D29F5C14800E4BECC /* Theming.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426528C29F5C14800E4BECC /* Theming.swift */; };
+		E426529129F5C64900E4BECC /* CopingSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426529029F5C64900E4BECC /* CopingSkillView.swift */; };
+		E426529329F5D96500E4BECC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426529229F5D96500E4BECC /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E426527F29ECF2E500E4BECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E426528629ECFB2A00E4BECC /* CopingSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopingSkills.swift; sourceTree = "<group>"; };
 		E426528829ECFBE500E4BECC /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		E426528A29F4EFF000E4BECC /* CopingStrategies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopingStrategies.swift; sourceTree = "<group>"; };
+		E426528C29F5C14800E4BECC /* Theming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theming.swift; sourceTree = "<group>"; };
+		E426529029F5C64900E4BECC /* CopingSkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopingSkillView.swift; sourceTree = "<group>"; };
+		E426529229F5D96500E4BECC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				E426527D29ECF2E500E4BECC /* MYND.entitlements */,
 				E426527E29ECF2E500E4BECC /* Preview Content */,
 				E426528629ECFB2A00E4BECC /* CopingSkills.swift */,
+				E426528A29F4EFF000E4BECC /* CopingStrategies.swift */,
+				E426528C29F5C14800E4BECC /* Theming.swift */,
+				E426529029F5C64900E4BECC /* CopingSkillView.swift */,
+				E426529229F5D96500E4BECC /* User.swift */,
 			);
 			path = MYND;
 			sourceTree = "<group>";
@@ -145,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E426528B29F4EFF000E4BECC /* CopingStrategies.swift in Sources */,
 				E426528729ECFB2A00E4BECC /* CopingSkills.swift in Sources */,
+				E426529129F5C64900E4BECC /* CopingSkillView.swift in Sources */,
+				E426528D29F5C14800E4BECC /* Theming.swift in Sources */,
+				E426529329F5D96500E4BECC /* User.swift in Sources */,
 				E426527A29ECF2E300E4BECC /* ContentView.swift in Sources */,
 				E426527829ECF2E300E4BECC /* MYNDApp.swift in Sources */,
 				E426528929ECFBE500E4BECC /* Navigation.swift in Sources */,

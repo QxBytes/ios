@@ -14,17 +14,17 @@ struct Navigation: View {
             TabView {
                 CopingSkills()
                     .tabItem {
-                        Text("C")
+                        Text("Home")
                     }
                 
                 Text("Second View")
                     .tabItem {
-                        Text("Second")
+                        Text("Resources")
                     }
                 
                 Text("Third View")
                     .tabItem {
-                        Text("Third")
+                        Text("Coping")
                     }
             }
                 
