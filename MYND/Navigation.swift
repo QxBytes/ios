@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct Navigation: View {
+    @State var userData: UserData = UserData(checkins: [])
     var body: some View {
         HStack {
                 
             TabView {
-                CopingSkills()
+                HomeView(userData: $userData)
                     .tabItem {
                         Text("Home")
                     }
@@ -22,7 +23,7 @@ struct Navigation: View {
                         Text("Resources")
                     }
                 
-                Text("Third View")
+                CopingSkills()
                     .tabItem {
                         Text("Coping")
                     }

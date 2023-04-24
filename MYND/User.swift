@@ -8,12 +8,12 @@
 import Foundation
 
 
-enum Mood: Int {
-    case AWFUL = 0
-    case BAD = 1
-    case OKAY = 2
-    case GOOD = 3
-    case GREAT = 4
+enum Mood: String {
+    case AWFUL = "Awful"
+    case BAD = "Bad"
+    case OKAY = "Okay"
+    case GOOD = "Good"
+    case GREAT = "Great"
 }
 struct Checkin {
     var timestamp: Double
@@ -24,4 +24,17 @@ struct UserData {
     var bookmarked = Set<Int>()
     var completed = Set<Int>()
     var checkins: [Checkin]
+}
+class User {
+    static let shared = User()
+    
+    
+    var bookmarked = Set<Int>()
+    var completed = Set<Int>()
+    var checkins: [Checkin] = []
+    private init() {
+        
+    }
+    
+    
 }
