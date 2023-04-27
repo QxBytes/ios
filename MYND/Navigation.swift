@@ -18,7 +18,7 @@ struct Navigation: View {
                         Text("Home")
                     }
                 
-                Text("Second View")
+                ResourcesView()
                     .tabItem {
                         Text("Resources")
                     }

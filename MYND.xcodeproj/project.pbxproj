@@ -19,6 +19,7 @@
 		E426529329F5D96500E4BECC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426529229F5D96500E4BECC /* User.swift */; };
 		E426529529F5E23E00E4BECC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426529429F5E23E00E4BECC /* HomeView.swift */; };
 		E426529729F9E14A00E4BECC /* CheckinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426529629F9E14A00E4BECC /* CheckinView.swift */; };
+		E426529929FA311100E4BECC /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426529829FA311100E4BECC /* ResourcesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E426529229F5D96500E4BECC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E426529429F5E23E00E4BECC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E426529629F9E14A00E4BECC /* CheckinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinView.swift; sourceTree = "<group>"; };
+		E426529829FA311100E4BECC /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E426529029F5C64900E4BECC /* CopingSkillView.swift */,
 				E426529229F5D96500E4BECC /* User.swift */,
 				E426529429F5E23E00E4BECC /* HomeView.swift */,
+				E426529829FA311100E4BECC /* ResourcesView.swift */,
 				E426529629F9E14A00E4BECC /* CheckinView.swift */,
 			);
 			path = MYND;
@@ -166,6 +169,7 @@
 				E426529729F9E14A00E4BECC /* CheckinView.swift in Sources */,
 				E426529529F5E23E00E4BECC /* HomeView.swift in Sources */,
 				E426528B29F4EFF000E4BECC /* CopingStrategies.swift in Sources */,
+				E426529929FA311100E4BECC /* ResourcesView.swift in Sources */,
 				E426528729ECFB2A00E4BECC /* CopingSkills.swift in Sources */,
 				E426529129F5C64900E4BECC /* CopingSkillView.swift in Sources */,
 				E426528D29F5C14800E4BECC /* Theming.swift in Sources */,
