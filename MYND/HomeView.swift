@@ -18,7 +18,6 @@ struct MoodSelection: View {
             selected = label
             let checkin = Checkin(timestamp: Date().timeIntervalSince1970, mood: Mood(rawValue: label)!, notes: "")
             userData.checkins.insert(checkin, at: 0)
-            print("Added")
         } label: {
             VStack {
                 Text(emoji)
