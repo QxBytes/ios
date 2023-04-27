@@ -52,11 +52,21 @@ struct HomeView: View {
                 MoodSelection(label: "Good", emoji: "🙂", selected: $selected, userData: $userData)
                 MoodSelection(label: "Great", emoji: "😊", selected: $selected, userData: $userData)
             }.background(Theming.bg)
+            
+            Divider()
+            
             VStack {
                 Text("Log")
-                ForEach(userData.checkins, id: \.self.timestamp) { checkin in
-                    Text(checkin.mood.rawValue)
-                    Text("" + String(checkin.timestamp))
+                    .font(.title)
+                if (!userData.checkins.isEmpty) {
+                    ForEach(userData.checkins.prefix(7), id: \.self.timestamp) { checkin in
+                        // timestamp is in seconds
+                        CheckinView(checkin: checkin)
+                    }
+                } else {
+                    Spacer()
+                    Text("No Data")
+                    Spacer()
                 }
             }
             Spacer()
