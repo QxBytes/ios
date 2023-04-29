@@ -23,6 +23,7 @@ struct CopingSkills: View {
                                 Text(strat.title)
                                     .foregroundColor(.black)
                                     .frame(maxWidth: .infinity, alignment:.leading)
+                                    .multilineTextAlignment(.leading)
                                 Text("B")
                                     
                             }

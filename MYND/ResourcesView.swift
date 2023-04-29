@@ -13,18 +13,20 @@ struct SquareView: View {
 
     var body: some View {
         ScrollView {
-            VStack(spacing: 5) {
-                Image(imageName)
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(Circle())
-                Text(text)
-                    .lineLimit(nil)
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(.black)
-                    .font(.system(size: 16, weight: .bold, design: .default))
-            }
-            .padding()
+                VStack(alignment: .center) {
+                               Image(imageName)
+                                   .resizable()
+                                   .scaledToFit()
+                                   .clipShape(Circle())
+                                   .frame(height: 1)
+                               Spacer()
+                                   .frame(height: 10)
+                               Text(text)
+                                   .lineLimit(nil)
+                                   .multilineTextAlignment(.center)
+                                   .foregroundColor(.black)
+                                   .font(.system(size: 18, weight: .bold, design: .default))
+                           }            .padding()
             .frame(width: 150, height: 150)
             .background(Color.white)
             .clipShape(RoundedRectangle(cornerRadius: 10))
@@ -51,7 +53,7 @@ struct ResourcesView: View {
         SquareView(imageName: "square5", text: "Mental Health Explained", link: "https://www.samhsa.gov/mental-health"),
         SquareView(imageName: "square6", text: "Websites For Me", link: "https://www.yourlifeyourvoice.org/Pages/home.aspx"),
         SquareView(imageName: "square7", text: "Acute Distress Help", link: "https://www.samhsa.gov/find-support/in-crisis"),
-        SquareView(imageName: "square8", text: "Problem-specific Resources", link: "https://www.helpguide.org/"),
+        SquareView(imageName: "square8", text: "Problem-specific Help", link: "https://www.helpguide.org/"),
     ]
 
     var body: some View {
