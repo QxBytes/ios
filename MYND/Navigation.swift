@@ -24,9 +24,15 @@ struct Navigation: View {
                         Text("Profile")
                     }
                 
-                HomeView(userData: $userData)
+                
+                MeasurementView()
                     .tabItem {
                         Text("Home")
+                    }
+                
+                HomeView(userData: $userData)
+                    .tabItem {
+                        Text("Mood Journal")
                     }
                 
                 ResourcesView()

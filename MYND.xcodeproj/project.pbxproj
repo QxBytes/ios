@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250220F829FCDC900046D269 /* MeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250220F729FCDC900046D269 /* MeasurementView.swift */; };
+		250220FA29FCDC940046D269 /* MoodLoggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250220F929FCDC930046D269 /* MoodLoggingView.swift */; };
+		250220FC29FCDC970046D269 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250220FB29FCDC970046D269 /* ColorSlider.swift */; };
 		E426527829ECF2E300E4BECC /* MYNDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426527729ECF2E300E4BECC /* MYNDApp.swift */; };
 		E426527A29ECF2E300E4BECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426527929ECF2E300E4BECC /* ContentView.swift */; };
 		E426527C29ECF2E500E4BECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E426527B29ECF2E500E4BECC /* Assets.xcassets */; };
@@ -53,6 +56,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		250220F729FCDC900046D269 /* MeasurementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasurementView.swift; sourceTree = "<group>"; };
+		250220F929FCDC930046D269 /* MoodLoggingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodLoggingView.swift; sourceTree = "<group>"; };
+		250220FB29FCDC970046D269 /* ColorSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 		E426527429ECF2E300E4BECC /* MYND.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYND.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E426527729ECF2E300E4BECC /* MYNDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYNDApp.swift; sourceTree = "<group>"; };
 		E426527929ECF2E300E4BECC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -142,6 +148,9 @@
 				E426528C29F5C14800E4BECC /* Theming.swift */,
 				E426529029F5C64900E4BECC /* CopingSkillView.swift */,
 				E426529229F5D96500E4BECC /* User.swift */,
+				250220F729FCDC900046D269 /* MeasurementView.swift */,
+				250220F929FCDC930046D269 /* MoodLoggingView.swift */,
+				250220FB29FCDC970046D269 /* ColorSlider.swift */,
 				E426529429F5E23E00E4BECC /* HomeView.swift */,
 				E426529829FA311100E4BECC /* ResourcesView.swift */,
 				E426529629F9E14A00E4BECC /* CheckinView.swift */,
@@ -264,9 +273,11 @@
 			files = (
 				E42652D629FB1AE500E4BECC /* DB.swift in Sources */,
 				E426529729F9E14A00E4BECC /* CheckinView.swift in Sources */,
+				250220FA29FCDC940046D269 /* MoodLoggingView.swift in Sources */,
 				E426529529F5E23E00E4BECC /* HomeView.swift in Sources */,
 				E426528B29F4EFF000E4BECC /* CopingStrategies.swift in Sources */,
 				E426529929FA311100E4BECC /* ResourcesView.swift in Sources */,
+				250220F829FCDC900046D269 /* MeasurementView.swift in Sources */,
 				E426528729ECFB2A00E4BECC /* CopingSkills.swift in Sources */,
 				E426529129F5C64900E4BECC /* CopingSkillView.swift in Sources */,
 				E42652D429FB0E7C00E4BECC /* LoginView.swift in Sources */,
@@ -274,6 +285,7 @@
 				E426529329F5D96500E4BECC /* User.swift in Sources */,
 				E426527A29ECF2E300E4BECC /* ContentView.swift in Sources */,
 				E426527829ECF2E300E4BECC /* MYNDApp.swift in Sources */,
+				250220FC29FCDC970046D269 /* ColorSlider.swift in Sources */,
 				E426528929ECFBE500E4BECC /* Navigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
