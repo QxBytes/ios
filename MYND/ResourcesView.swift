@@ -21,7 +21,8 @@ struct SquareView: View {
                 Text(text)
                     .lineLimit(nil)
                     .multilineTextAlignment(.center)
-                    .foregroundColor(.primary)
+                    .foregroundColor(.black)
+                    .font(.system(size: 16, weight: .bold, design: .default))
             }
             .padding()
             .frame(width: 150, height: 150)
@@ -43,14 +44,14 @@ struct SquareView: View {
 
 struct ResourcesView: View {
     let squares = [
-        SquareView(imageName: "square1", text: "Therapy", link: "https://www.google.com"),
-        SquareView(imageName: "square2", text: "Support Groups", link: "https://www.apple.com"),
-        SquareView(imageName: "square3", text: "", link: "https://www.amazon.com"),
-        SquareView(imageName: "square4", text: "", link: "https://www.microsoft.com"),
-        SquareView(imageName: "square5", text: "", link: "https://www.twitter.com"),
-        SquareView(imageName: "square6", text: "", link: "https://www.facebook.com"),
-        SquareView(imageName: "square7", text: "", link: "https://www.linkedin.com"),
-        SquareView(imageName: "square8", text: "", link: "https://www.reddit.com"),
+        SquareView(imageName: "square1", text: "Local Therapy", link: "https://www.findtreatment.gov/"),
+        SquareView(imageName: "square2", text: "Local Support Groups", link: "https://www.samhsa.gov/find-support/health-care-or-support/support-group-or-local-program"),
+        SquareView(imageName: "square3", text: "Online Therapy", link: "https://www.betterhelp.com/"),
+        SquareView(imageName: "square4", text: "Online Support Groups", link: "https://www.heypeers.com/organizations/8/scheduled_meetings"),
+        SquareView(imageName: "square5", text: "Mental Health Explained", link: "https://www.samhsa.gov/mental-health"),
+        SquareView(imageName: "square6", text: "Websites For Me", link: "https://www.yourlifeyourvoice.org/Pages/home.aspx"),
+        SquareView(imageName: "square7", text: "Acute Distress Help", link: "https://www.samhsa.gov/find-support/in-crisis"),
+        SquareView(imageName: "square8", text: "Problem-specific Resources", link: "https://www.helpguide.org/"),
     ]
 
     var body: some View {
@@ -72,7 +73,7 @@ struct ResourcesView: View {
             }
         }
         .padding(Theming.md)
-        .background(Theming.bg)
+        .background(Color(red: 0.95, green: 0.95, blue: 0.95))
     }
 }
 

@@ -39,7 +39,7 @@ struct CopingSkills: View {
                 .padding(Theming.md)
                 .background(Theming.bg)
             }
-        }.background(Theming.bg)
+        }.background(Color(red: 0.95, green: 0.95, blue: 0.95))
     }
 }
 
