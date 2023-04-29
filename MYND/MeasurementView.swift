@@ -60,7 +60,7 @@ struct MeasurementView: View {
         NavigationView {
             ScrollView{
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Hello, Name! You are doing great.")
+                    Text("Hello, User! You are doing great.")
                         .font(.system(size: 24, weight: .bold, design: .default))
                         .padding(.bottom, 16)
                     
