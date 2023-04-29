@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>622417927682-nbbqv8rq00lismfptm63hqf2ihfj7ktl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.622417927682-nbbqv8rq00lismfptm63hqf2ihfj7ktl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCpFrnDT9Waw83ljTF9LJQ2fHC5s5sboGg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>622417927682</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mynd.MYND</string>
+	<key>PROJECT_ID</key>
+	<string>mynd-fb547</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mynd-fb547.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:622417927682:ios:128a7b54b9b477dbab111b</string>
+</dict>
+</plist>

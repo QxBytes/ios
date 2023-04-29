@@ -20,7 +20,6 @@
 		E426529529F5E23E00E4BECC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426529429F5E23E00E4BECC /* HomeView.swift */; };
 		E426529729F9E14A00E4BECC /* CheckinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426529629F9E14A00E4BECC /* CheckinView.swift */; };
 		E426529929FA311100E4BECC /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426529829FA311100E4BECC /* ResourcesView.swift */; };
-		E426529B29FB0C6800E4BECC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E426529A29FB0C6800E4BECC /* GoogleService-Info.plist */; };
 		E426529E29FB0DA000E4BECC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E426529D29FB0DA000E4BECC /* FirebaseAnalytics */; };
 		E42652A029FB0DA000E4BECC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = E426529F29FB0DA000E4BECC /* FirebaseAnalyticsOnDeviceConversion */; };
 		E42652A229FB0DA000E4BECC /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E42652A129FB0DA000E4BECC /* FirebaseAnalyticsSwift */; };
@@ -50,6 +49,7 @@
 		E42652D229FB0DA100E4BECC /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E42652D129FB0DA100E4BECC /* FirebaseStorageCombine-Community */; };
 		E42652D429FB0E7C00E4BECC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42652D329FB0E7C00E4BECC /* LoginView.swift */; };
 		E42652D629FB1AE500E4BECC /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42652D529FB1AE500E4BECC /* DB.swift */; };
+		E42652D829FCB1B200E4BECC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E42652D729FCB1B200E4BECC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,9 +68,9 @@
 		E426529429F5E23E00E4BECC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E426529629F9E14A00E4BECC /* CheckinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinView.swift; sourceTree = "<group>"; };
 		E426529829FA311100E4BECC /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
-		E426529A29FB0C6800E4BECC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E42652D329FB0E7C00E4BECC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E42652D529FB1AE500E4BECC /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		E42652D729FCB1B200E4BECC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +130,7 @@
 		E426527629ECF2E300E4BECC /* MYND */ = {
 			isa = PBXGroup;
 			children = (
-				E426529A29FB0C6800E4BECC /* GoogleService-Info.plist */,
+				E42652D729FCB1B200E4BECC /* GoogleService-Info.plist */,
 				E426528829ECFBE500E4BECC /* Navigation.swift */,
 				E426527729ECF2E300E4BECC /* MYNDApp.swift */,
 				E426527929ECF2E300E4BECC /* ContentView.swift */,
@@ -251,7 +251,7 @@
 			files = (
 				E426528029ECF2E500E4BECC /* Preview Assets.xcassets in Resources */,
 				E426527C29ECF2E500E4BECC /* Assets.xcassets in Resources */,
-				E426529B29FB0C6800E4BECC /* GoogleService-Info.plist in Resources */,
+				E42652D829FCB1B200E4BECC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
